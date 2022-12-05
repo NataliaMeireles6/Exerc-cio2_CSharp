@@ -22,7 +22,7 @@ class Program {
     entrada = Console.ReadLine();
     n3 = Double.Parse(entrada);
 
-    media = (n1, n2, n3)/10.0;
+    media = (n1*2 + n2*3 + n3*5)/10;
 
     Console.WriteLine("A media do(a) aluno(a) " + nome + " é " + media);
   }
